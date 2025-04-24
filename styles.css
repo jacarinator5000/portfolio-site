@@ -14,6 +14,20 @@ a {
     bottom: 20%;
     left: 15%;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#my-name, 
+#projects,
+#blog,
+#info,
+#contact {
+    display: inline-block;
+}
+
 
 img {
     display: block;
